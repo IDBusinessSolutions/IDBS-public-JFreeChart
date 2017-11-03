@@ -1,0 +1,32 @@
+06/06/2007 Brian Cabana: Initial import of JFreeChart 1.0.5 for modification
+07/11/2007 Brian Cabana: Work on StackedBarRenderer3D to expose private mehtod to allow extension
+07/12/2007 Brian Cabana: Work on Redar and Polar Chart
+07/13/2007 Brian Cabana: Converted 2D Charting to use JFreeChart, exposed some API to allow draw external draw calls
+07/16/2007 Brian Cabana: Removed the prerendering pass since we no longer need it to support our 3d drawing.
+07/26/2007 Brian Cabana: Added ability to utilize native chart title and axis label.  Also exposed native chart legend.
+07/30/2007 Brian Cabana: Fixed issue with ChartLegendEntity not getting correct series index.
+08/20/2007 Brian Cabana: Axis Label Rotation Support
+08/24/2007 Brian Cabana: Fixed logarithmic axis bug where axis labels could not be seen
+08/24/2007 Brian Cabana: Fixed bad measurement of space available for text on LogarithmicAxis
+08/24/2007 Brian Cabana: Need to pass in the text for better measurement
+08/24/2007 Brian Cabana: Fixed clipping problem with log axis by having better label text measurement for rotated labels
+08/31/2007 Brian Cabana: Fixed truncated log axis labels
+09/04/2007 Brian Cabana: Fixed notification inside of paint call
+09/05/2007 Brian Cabana: Fixed scatter chart x axis custom grid spacing shows infinity with incomplete data
+09/10/2007 Brian Cabana: Labels clipped because wrong font
+09/19/2007 Brian Cabana: Category axis supports grid and tick spacing
+11/20/2007 Brian Cabana:  Fixed wiring of dataset when passed into constructor
+01/09/2008 Brian Cabana:  Better tick spacing calculation
+01/21/2008 Brian Cabana:  Better measurement of spacing
+02/26/2008 Brian Cabana:  Multi-y-axis fixes
+04/11/2008 Brian Cabana: Merged with JFreeChart 1.0.9
+07/08/2008 Brian Cabana:  Added ability to set whether to use rotated tick labels to support additional model visualization / interaction gadgets
+08/27/2008 Pete Murray Added buffered charts with resize handling! 
+08/28/2008 Brian Cabana:  Fixed bug where we were using image buffer when printing
+11/10/2010 Ben Wake: Fixed bug with BubbleChart crashing by shortcut hole values in bubble chart renderer
+06/21/2011 Ben Wake: Fixed JFreechart bug that ignores the clipRect for dial gauges.
+06/27/2011 Brian Cabana: Fixed Pie Chart Label value issues
+03/20/2012 Brian Cabana: Merged with JFreeChart 1.0.14
+03/27/2012 Brian Cabana: Worked on thermometer settings to get a better look
+03/28/2012 Brian Cabana: Added new properties to the Thermometer (border color) and Dial guage (minor ticks)
+05/07/2014 Brian Cabana:  Fixed clipping of dial plot
